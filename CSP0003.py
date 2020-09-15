@@ -1,0 +1,15 @@
+array = []
+print("Please enter size of array:")
+length = int(input())
+for i in range(length):
+    print("Enter element[", i, "]:")
+    value = int(input())
+    array.append(value)
+print("The array after sorting:", sorted(array))
+print("Please enter new value:")
+number = int(input())
+array.append(number)
+print("New array:")
+print(sorted(array))
+stripped_line = line.rstrip("\n")
+  dictionary.append(stripped_line)
